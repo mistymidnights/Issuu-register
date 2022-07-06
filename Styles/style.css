@@ -1,0 +1,104 @@
+*{
+    margin: auto 0;
+    font-family: helvetica;
+    font-weight: lighter;
+}
+
+header img{
+    height: 30px;
+}
+
+.container div{
+    display: flex;
+}
+
+.container .justify-content{
+    justify-content: space-between
+}
+
+header{
+    margin: 10px 10px 100px 10px;
+}
+
+main{
+    margin-left: 100px;
+}
+
+footer{
+    margin-top: 120px;
+}
+
+.container-signin{
+    display: flex;
+}
+
+p{
+    margin: 40px 0px 40px 0px;
+}
+
+.email-container, .password-container, .checkbox-container{
+    margin-bottom: 20px;
+}
+
+.email-container{
+    margin-bottom: 30px;
+}
+
+.password-container{
+    margin-bottom: ;
+    height: 49px;
+}
+
+.email-container input{
+    width: 40%;
+}
+
+.password-container input{
+    width: 40%;
+}
+
+div label{ 
+    display: flex; 
+    margin: 10px 0; 
+}
+
+.email-container label{
+    font-weight: bold;
+}
+
+.password-container label{
+    font-weight: bold;
+}
+
+.checkbox-container{
+    display: flex;
+    font-size: 12px;
+}
+
+.checkbox-container input{
+    margin-right: 10px;
+}
+
+.checkbox-container a{
+    margin-left: 5px;
+    color: blue;
+    text-decoration: none;
+}
+
+.submit-container input{
+    height: 50px;
+}
+
+.footerline{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    margin-right: 20px;
+}
+

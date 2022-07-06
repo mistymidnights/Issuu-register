@@ -4,42 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles/style.css">
     <title>Issuu, registro</title>
 </head>
     <header>
-        <img height="60" src="https://www.tailorbrands.com/wp-content/uploads/2021/01/nike-logo.png" alt="logo">
-        <div>
-            <p>Already a user?</p>
-            <a href="#">Sign In</a>
+        <div class="container">
+            <div class="justify-content">
+                <div>
+                <img height="60" src="../assets/issuulogo.png" alt="logo">
+                </div>
+                <div>
+                    <p>Already a user?</p>
+                    <a href="#">Sign In</a>
+                </div>
+            </div>
         </div>
     </header>
 <body>
     <main>
-        <h1><b>Create an Issuu Account.</b></h1>
-        <div>
-            <a href="https://www.google.es/"><img src="https://user-images.githubusercontent.com/1531669/41761606-83b5bd42-762a-11e8-811a-b78fdf68bc04.png" height="60" alt=""></a>
-        </div>
-        <div>
-            <a href="https://www.facebook.es/"><img src="https://tools.sublimesolutions.com/facebook-sign-in-button.png" height="72" alt=""></a>
+        <h1>Create an Issuu Account.</h1>
+        <div class="container-signin">
+            <div class="logo-google">
+                <a href="https://www.google.es/"><img src="https://user-images.githubusercontent.com/1531669/41761606-83b5bd42-762a-11e8-811a-b78fdf68bc04.png" height="60" alt=""></a>
+            </div>
+            <div class="logo-facebook">
+                <a href="https://www.facebook.es/"><img src="https://tools.sublimesolutions.com/facebook-sign-in-button.png" height="72" alt=""></a>
+            </div>
         </div>
         <p>or with email</p>
+
+        <form>
+            <div class="email-container">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="password-container">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
+            </div>
+            <div class="checkbox-container">
+                <input type="checkbox" id="terminos" name="terminos" value="accept">
+                <label for="terminos"> I accept the <a href="#">terms</a></label>
+            </div>
+            <div class="submit-container">
+                <input type="submit" value="CREATE ACCOUNT">
+            </div>
+        </form>
     </main>
-    <form>
-        <label for="email">Email</label><br>
-        <input type="email" id="correo" name="correo"><br>
-        <label for="password">Password</label><br>
-        <input type="password" id="pwd" name="pwd"><br>
-        <input type="checkbox" id="terminos" name="terminos" value="accept">
-        <label for="terminos"> I accept the <a href="#">terms</a></label><br>
-        <input type="submit" value="CREATE ACCOUNT">
-    </form>
 </body>
 <footer>
-    <p>Issuu Inc.</p>
-    <div>
-        <p>Terms</p>
-        <p>Privacy</p>
-        <p>DMCA</p>
+    <div class="footerline">
+        <ul>
+            <li>Issuu Inc.</li>
+        </ul>
+            <ul>
+                <li>Terms</li>
+                <li>Privacy</li>
+                <li>DMCA</li>
+            </ul>
     </div>
 </footer>
 </html>
